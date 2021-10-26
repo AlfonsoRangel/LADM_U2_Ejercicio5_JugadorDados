@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="35dp"
+    android:paddingHorizontal="12dp"
+    android:background="@color/grisLigero"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jugador 1"
+        android:textSize="27sp"
+        android:textColor="@color/rojo"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/tirada1J1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiro 1:  "
+            android:textSize="17sp"
+            android:textColor="@color/negroLigero" />
+
+        <TextView
+            android:id="@+id/dadoJ1T1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="20sp"
+            android:textColor="@color/verde"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tirada2J1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiro 2:  "
+            android:textSize="17sp"
+            android:textColor="@color/negroLigero" />
+
+        <TextView
+            android:id="@+id/dadoJ1T2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="20sp"
+            android:textColor="@color/verde"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/totalJ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total =  10"
+        android:textSize="22sp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jugador 2"
+        android:textSize="27sp"
+        android:textColor="@color/rojo"
+        android:textStyle="bold"
+        android:layout_marginTop="38dp"/>
+
+    <LinearLayout
+        android:id="@+id/tirada1J2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiro 1:  "
+            android:textSize="17sp"
+            android:textColor="@color/negroLigero" />
+
+        <TextView
+            android:id="@+id/dadoJ2T1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="20sp"
+            android:textColor="@color/verde"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tirada2J2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiro 2:  "
+            android:textSize="17sp"
+            android:textColor="@color/negroLigero" />
+
+        <TextView
+            android:id="@+id/dadoJ2T2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="20sp"
+            android:textColor="@color/verde"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/totalJ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total =  10"
+        android:textSize="22sp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtGanador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El ganador es jugador 1"
+        android:textSize="20sp"
+        android:textColor="@color/verde"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="35dp"/>
+
+    <Button
+        android:id="@+id/botonIniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Juego"
+        android:textSize="18sp"
+        android:padding="12dp" />
+
+</LinearLayout>
